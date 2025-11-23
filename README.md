@@ -1,2 +1,2 @@
 # project4GW
-//for group hw
+for group project only
