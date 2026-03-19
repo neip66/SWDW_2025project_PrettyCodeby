@@ -1,0 +1,98 @@
+/* General resets and page structure */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Banner Styling [cite: 9] */
+header {
+    background-color: #808080; /* Gray */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: yellow;
+    font-size: 3em;
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Navigation Bar [cite: 10] */
+nav {
+    background-color: #ADD8E6; /* Light Blue */
+    padding: 10px;
+}
+
+nav a {
+    color: #4B0082;
+    text-decoration: underline;
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+
+/* Navigation Hover Effect [cite: 12] */
+nav a:hover {
+    color: red;
+}
+
+/* Main Layout: Flexbox to ensure straight edges [cite: 34] */
+.main-container {
+    display: flex;
+    min-height: 80vh;
+}
+
+/* Left Sidebar [cite: 13] */
+.sidebar {
+    width: 250px;
+    background-color: #D3D3D3; /* Light Gray */
+    padding: 10px;
+    border-right: 1px dashed red; /* Matching the dashed border in figures */
+}
+
+/* Icon Table [cite: 19] */
+.icon-table {
+    background-color: black;
+    border: 5px solid black;
+    border-spacing: 5px;
+}
+
+.icon-table td {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon-table img {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+
+.missing-img {
+    color: purple;
+    font-size: 1.2em;
+    text-decoration: underline;
+    display: inline-block;
+    border: 1px solid purple;
+    padding: 20px 5px;
+}
+
+
+.content {
+    flex-grow: 1;
+    background-color: #FAFAD2;
+    padding: 30px;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+
+.form-section {
+    margin-top: 20px;
+    text-align: center;
+}
