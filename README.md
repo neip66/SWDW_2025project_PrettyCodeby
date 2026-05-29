@@ -26,3 +26,4 @@ Features a dynamic "Best Sellers" report that reads the purchase database direct
 
 4. Future Work
 Currently, the purchase table acts as a global inventory tracking total store sales. In the future, we plan to implement per-user cart rows in the database and add hashed passwords for enhanced security.
+5. Team Contributions
